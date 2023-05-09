@@ -9,8 +9,8 @@
     </head>
     <body>
         <div class="card">
-            <div class="card-header">
-              Payment form example
+            <div class="card-header p-3">
+              <h4>Payment form example</h4>
             </div>
             <div class="card-body">
               <p class="alert alert-danger">Some fields are missing</p>
@@ -66,19 +66,19 @@
                               <label for="icons" class="form-label">We accept:</label><br>
                             <div class="col-7 bg-secondary p-3">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
                                     <label class="form-check-label" for="inlineCheckbox1"><i class="fa-brands fa-cc-mastercard"></i></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
                                     <label class="form-check-label" for="inlineCheckbox2"><i class="fa-brands fa-cc-visa"></i></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                    <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3">
                                     <label class="form-check-label" for="inlineCheckbox3"><i class="fa-brands fa-cc-diners-club"></i></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                                    <input class="form-check-input" type="radio" id="inlineCheckbox4" value="option4">
                                     <label class="form-check-label" for="inlineCheckbox4"><i class="fa-brands fa-cc-amex"></i></label>
                                 </div>
                             </div>
@@ -91,8 +91,10 @@
                     </div>
                 
                     <div class="card-footer col d-flex justify-content-end bg-light p-2 ">
-                        <button type="button" class="btn btn-primary">Cancel</button>
-                        <button type="button" class="btn btn-secondary">Send</button>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-primary">Cancel</button>
+                            <button type="button" class="btn btn-secondary">Send</button>
+                        </div>
                     </div>
                 </form>
             </div>
